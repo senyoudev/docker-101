@@ -7,3 +7,5 @@
 *list running containers:docker ps
 *list all containers : docker ps -a
 *start running a container : docker start myapp_c2
+
+=========================image caching==================================================
