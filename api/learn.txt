@@ -13,4 +13,7 @@
 *build with a version: docker build -t myapp:v1 .
 *run a container with a specific version:docker run --name myapp_c1 -p 4000:4000  myapp:v1 
 *configure a volume :docker run --name myapp_c5 -p 4000:4000 --rm -v C:\Users\youne\Desktop\docker-101\api:/app -v /app/node_modules  myapp:nodemon
+*run docker compose :docker-compose up
+*stop container in the compose : docker-compose down
+*stop container and remove them : docker-compose down --rmi all -v
 image caching
